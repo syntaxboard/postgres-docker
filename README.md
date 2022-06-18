@@ -1,7 +1,7 @@
 # postgres-docker
 
 # Creating and filling a Postgres DB with Docker Compose
-This project create tables and fill the tables in a Postgres data base. The tables and data that create are in sql/ folder
+A PostgreSQL database is created and filled with tables in this project.Tables and data are stored in the sql folder.
 
 # Parameteres for Docker Compose
 | Parameter          | Description|
@@ -9,7 +9,7 @@ This project create tables and fill the tables in a Postgres data base. The tabl
 | POSTGRES_USER      |user name to connect postgres|
 | POSTGRES_PASSWORD  |password to connect postgres|        
 | POSTGRES_DB        |database name|
-| Port               |port mapped by Postgres is 5432 in your container.use the port 5438 on the host machine| 
+| Port               |On the host, use the port 5432, which is mapped by Postgres as 5432 in your container| 
 
 # Running the Docker Compose File
 ```
