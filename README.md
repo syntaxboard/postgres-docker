@@ -1,3 +1,8 @@
+# Installing Docker
+## Docker Windows
+### Download Docker Desktop for Windows
+[Docker Desktop for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
+
 # postgres-docker
 
 # Creating and filling a Postgres DB with Docker Compose
