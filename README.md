@@ -6,22 +6,20 @@
 [Docker Desktop for Windows](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)
 ## Install interactively
 1. Double-click Docker Desktop Installer.exe to run the installer.
-2. When prompted, ensure the Use WSL 2 instead of Hyper-V option on the Configuration page is selected or not depending on your choice of backend.
-3. Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
-4. When the installation is successful, click Close to complete the installation process.
-5. If your admin account is different to your user account, you must add the user to the docker-users group. Run Computer Management as an administrator and navigate to Local Users and Groups > Groups > docker-users. Right-click to add the user to the group. Log out and log back in for the changes to take effect.
-## Install from the command line
-### After downloading Docker Desktop Installer, run the following command in a terminal to install Docker Desktop:
-```
-"Docker Desktop Installer.exe" install
-```
-```
-start /w "" "Docker Desktop Installer.exe" install
-```
-If your admin account is different to your user account, you must add the user to the docker-users group:
-```
-net localgroup docker-users <user> /add
-```
+![image](https://user-images.githubusercontent.com/51730523/174503709-5eb96362-797a-4c95-9d8e-99a39de3497d.png)
+
+2. Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
+3. When the installation is successful, click Close to complete the installation process.
+4. If you get WSL2 installation is in complete error
+![image](https://user-images.githubusercontent.com/51730523/174503480-da66df95-6c0d-4832-87a9-dec2005f1c16.png)
+![image](https://user-images.githubusercontent.com/51730523/174503525-b9bcae75-4ff6-4184-80a1-1b0267c56fc4.png)
+![image](https://user-images.githubusercontent.com/51730523/174503528-cf5a5666-2ab5-4e58-9699-fd87f7db95a9.png)
+![image](https://user-images.githubusercontent.com/51730523/174503534-6d450057-50b4-444f-9b9e-f73a0d9a19c3.png)
+![image](https://user-images.githubusercontent.com/51730523/174503537-2e785c6f-998d-4cc9-b517-6aaa0d916b83.png)
+![image](https://user-images.githubusercontent.com/51730523/174503542-f50193ad-4646-474d-a672-caaefc5da557.png)
+5. Download the Linux kernel update package
+[Linux kernel update](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
 # postgres-docker
 
 ## Creating and filling a Postgres DB with Docker Compose
