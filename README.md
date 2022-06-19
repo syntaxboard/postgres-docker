@@ -1,3 +1,5 @@
+# Installing Git
+[Git for Windows](https://git-scm.com/download/win)
 # Installing Docker
 ## Docker Windows
 ## Download Docker Desktop for Windows
