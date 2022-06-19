@@ -10,7 +10,8 @@
 
 2. Follow the instructions on the installation wizard to authorize the installer and proceed with the install.
 3. When the installation is successful, click Close to complete the installation process.
-4. If you get WSL2 installation is in complete error
+4. If you get WSL2 installation is in complete error:
+
 ![image](https://user-images.githubusercontent.com/51730523/174503480-da66df95-6c0d-4832-87a9-dec2005f1c16.png)
 
 ![image](https://user-images.githubusercontent.com/51730523/174503525-b9bcae75-4ff6-4184-80a1-1b0267c56fc4.png)
