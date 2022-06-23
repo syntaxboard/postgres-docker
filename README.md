@@ -1,6 +1,3 @@
-# Installing Git
-[Git for Windows](https://git-scm.com/download/win)
-
 # postgres-docker
 
 ## Creating and filling a Postgres DB with Docker Compose
