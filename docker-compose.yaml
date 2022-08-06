@@ -12,8 +12,8 @@ services:
         ports:
           - '5432:5432'
         environment:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
+          POSTGRES_USER: syntaxboard
+          POSTGRES_PASSWORD: syntaxboard
           POSTGRES_DB: syntaxboard
         logging:
           options:
