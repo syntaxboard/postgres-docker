@@ -1,4 +1,4 @@
-# MySql Docker
+# Postgres-Docker
 # Docker Installation 
 The steps for installing Docker can be found here:
   [Docker Installation](https://github.com/syntaxboard/docker-installation)
@@ -36,7 +36,6 @@ The steps for installing Git can be found here:
    docker ps  -a
    docker rm --force "conatiner_id" from the above command.
    ```
-# postgres-docker
 
 ## Creating and filling a Postgres DB with Docker Compose
 A PostgreSQL database is created and filled with tables in this project.Tables and data are stored in the sql folder.
