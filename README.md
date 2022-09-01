@@ -1,14 +1,14 @@
 # Postgres-Docker
-# Docker Installation 
+## Docker Installation 
 The steps for installing Docker can be found here:
   [Docker Installation](https://github.com/syntaxboard/docker-installation)
-# Git Installtion 
+## Git Installtion 
 The steps for installing Git can be found here:
   [Git Installation](https://github.com/syntaxboard/git-installtion)
-# Install and configure AWS CLI
+## Install and configure AWS CLI
 The steps for installing and configuring AWS CLI can be found here:
   [AWS CLI Installation](https://github.com/syntaxboard/aws-cli-installation)
-# Building the Docker
+## Building the Docker
 1. Create a directory on the local system and call it postgres.
    
    From the command prompt run the following cmd:
@@ -27,11 +27,11 @@ The steps for installing and configuring AWS CLI can be found here:
    ![image](https://user-images.githubusercontent.com/51730523/175399685-61d0eb7d-04bd-42f4-8efe-2f067a5940a1.png)
 4. Open commmad prompt and run the Docker command from mysql as required.
 
-## Command to run the docker in the background
+### Command to run the docker in the background
    ```
    docker-compose up --d
    ```
-## Command to remove the container 
+### Command to remove the container 
    ```
    docker-compose down
    ```
@@ -39,20 +39,20 @@ The steps for installing and configuring AWS CLI can be found here:
    ```
    docker-compose up --force-recreate "Service Name Specified in the docker in this case it db"
    ```
-## Command to list all the containers
+### Command to list all the containers
    ```
    docker ps  -a
    ```
-## Command to force remove the container
+### Command to force remove the container
    ```
    docker ps  -a
    docker rm --force "conatiner_id" from the above command.
    ```
 
-## Creating and filling a Postgres DB with Docker Compose
+### Creating and filling a Postgres DB with Docker Compose
 A PostgreSQL database is created and filled with tables in this project.Tables and data are stored in the sql folder.
 
-## Parameteres for Docker Compose
+### Parameteres for Docker Compose
 | Parameter          | Description|
 | :---               |:----  | 
 | POSTGRES_USER      |user name to connect postgres|
@@ -60,7 +60,3 @@ A PostgreSQL database is created and filled with tables in this project.Tables a
 | POSTGRES_DB        |database name|
 | Port               |On the host, use the port 5432, which is mapped by Postgres as 5432 in your container| 
 
-## Running the Docker Compose File
-```
-$ docker-compose up
-```
