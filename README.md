@@ -35,30 +35,30 @@ The steps for installing and configuring AWS CLI can be found here:
 
 3. Open commmad prompt and run the Docker command from postgres as required.
 
-### Command to run the docker in the background
+  ### Command to run the docker in the background
    ```
    docker-compose up --d
    ```
-### Command to remove the container 
+  ### Command to remove the container 
    ```
    docker-compose down
    ```
-## Command to force the docker recreate the image and container
+  ### Command to force the docker recreate the image and container
    ```
    docker-compose up --force-recreate "Service Name Specified in the docker in this case it db"
    ```
-### Command to list all the containers
+  ### Command to list all the containers
    ```
    docker ps  -a
    ```
-### Command to force remove the container
+  ### Command to force remove the container
    ```
    docker ps  -a
    docker rm "conatiner_id" from the above command.
    ```
 
-### Creating and filling a Postgres DB with Docker Compose
-A PostgreSQL database is created and filled with tables in this project.Tables and data are stored in the sql folder.
+  ### Creating and filling a Postgres DB with Docker Compose
+  A PostgreSQL database is created and filled with tables in this project.Tables and data are stored in the sql folder.
 
 ### Parameteres for Docker Compose
 | Parameter          | Description|
