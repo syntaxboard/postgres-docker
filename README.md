@@ -16,16 +16,24 @@ The steps for installing and configuring AWS CLI can be found here:
    ```
    mkdir postgres
    
+   ```   
+   
+    ![image](./cmd.png)
+  
+2. Clone the postgres repository to that folder.
+   
+   From the command prompt run the following cmd:
+   
+   ```
+   git clone https://github.com/syntaxboard/postgres-docker
+   
    ```
    
+    ![image](./git-clone.png)
    
-  ![image](https://user-images.githubusercontent.com/51730523/175397289-13dc6e85-fc9e-482c-9d9e-313412986cd7.png)
-2. Clone the mysql repository to that folder.
-  ![image](https://user-images.githubusercontent.com/51730523/175397784-8c7895c8-93c5-40d7-ac88-2d67f6b95f7f.png)
-  ![image](https://user-images.githubusercontent.com/51730523/175398164-7fbb400e-67d9-4fa7-b99d-4a4a3496d6b7.png)
-3. To get the latest changes on the repository.
-   ![image](https://user-images.githubusercontent.com/51730523/175399685-61d0eb7d-04bd-42f4-8efe-2f067a5940a1.png)
-4. Open commmad prompt and run the Docker command from mysql as required.
+    ![image](/git.png)
+
+3. Open commmad prompt and run the Docker command from postgres as required.
 
 ### Command to run the docker in the background
    ```
@@ -46,7 +54,7 @@ The steps for installing and configuring AWS CLI can be found here:
 ### Command to force remove the container
    ```
    docker ps  -a
-   docker rm --force "conatiner_id" from the above command.
+   docker rm "conatiner_id" from the above command.
    ```
 
 ### Creating and filling a Postgres DB with Docker Compose
