@@ -5,8 +5,20 @@ The steps for installing Docker can be found here:
 # Git Installtion 
 The steps for installing Git can be found here:
   [Git Installation](https://github.com/syntaxboard/git-installtion)
+# Install and configure AWS CLI
+The steps for installing and configuring AWS CLI can be found here:
+  [AWS CLI Installation](https://github.com/syntaxboard/aws-cli-installation)
 # Building the Docker
-1. Create a directory on the local system and call it mysql.
+1. Create a directory on the local system and call it postgres.
+   
+   From the command prompt run the following cmd:
+   
+   ```
+   mkdir postgres
+   
+   ```
+   
+   
   ![image](https://user-images.githubusercontent.com/51730523/175397289-13dc6e85-fc9e-482c-9d9e-313412986cd7.png)
 2. Clone the mysql repository to that folder.
   ![image](https://user-images.githubusercontent.com/51730523/175397784-8c7895c8-93c5-40d7-ac88-2d67f6b95f7f.png)
