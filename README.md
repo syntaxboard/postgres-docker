@@ -37,7 +37,7 @@ The steps for installing and configuring AWS CLI can be found here:
 
     ### Command to run the docker in the background
     ```
-    docker-compose up --d
+    docker-compose up -d
     ```
     ### Command to remove the container 
     ```
